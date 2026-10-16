@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "title": "Sprout",
+    "description": "Créditos, dívidas, investimentos e metas em um só lugar tranquilo, para você, sua casa ou sua empresa."
+  },
+  "shell": {
+    "skip": "Ir para o conteúdo",
+    "menu": "Menu",
+    "mainNav": "Principal",
+    "scopeLabel": "Visualizando",
+    "languageLabel": "Idioma",
+    "soon": "Em breve"
+  },
+  "scopes": {
+    "personal": "Pessoal",
+    "household": "Família",
+    "company": "Empresa"
+  },
+  "nav": {
+    "overview": "Visão geral",
+    "accounts": "Contas",
+    "debts": "Dívidas",
+    "investments": "Investimentos",
+    "goals": "Metas"
+  },
+  "overview": {
+    "title": "Visão geral",
+    "emptyTitle": "Ainda não há nada plantado",
+    "emptyBody": "Comece pelo que você já tem. O Sprout monta o seu panorama conforme você adiciona informações.",
+    "stepsLabel": "Por onde começar",
+    "steps": [
+      {
+        "title": "Adicione uma conta",
+        "body": "Conta corrente, cartão ou dinheiro. Isso ancora o seu saldo."
+      },
+      {
+        "title": "Registre o que você deve ou tem a receber",
+        "body": "Empréstimos, parcelas e valores emprestados, com as datas que importam."
+      },
+      {
+        "title": "Defina uma meta",
+        "body": "Uma reserva, uma viagem ou uma compra. O Sprout acompanha a distância, sem pressão."
+      }
+    ],
+    "cta": "Adicionar a primeira conta"
+  }
+}

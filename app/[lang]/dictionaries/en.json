@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "title": "Sprout",
+    "description": "Credits, debts, investments and goals in one calm place, for you, your household or your company."
+  },
+  "shell": {
+    "skip": "Skip to content",
+    "menu": "Menu",
+    "mainNav": "Main",
+    "scopeLabel": "Viewing",
+    "languageLabel": "Language",
+    "soon": "Soon"
+  },
+  "scopes": {
+    "personal": "Personal",
+    "household": "Household",
+    "company": "Company"
+  },
+  "nav": {
+    "overview": "Overview",
+    "accounts": "Accounts",
+    "debts": "Debts",
+    "investments": "Investments",
+    "goals": "Goals"
+  },
+  "overview": {
+    "title": "Overview",
+    "emptyTitle": "Nothing planted yet",
+    "emptyBody": "Start with what you already have. Sprout builds your picture as you add to it.",
+    "stepsLabel": "Where to start",
+    "steps": [
+      {
+        "title": "Add an account",
+        "body": "A checking account, a card or cash. This anchors your balance."
+      },
+      {
+        "title": "Record what you owe or are owed",
+        "body": "Loans, installments and money lent, with the dates they matter."
+      },
+      {
+        "title": "Set a goal",
+        "body": "A reserve, a trip or a purchase. Sprout tracks the distance, not the pressure."
+      }
+    ],
+    "cta": "Add your first account"
+  }
+}
