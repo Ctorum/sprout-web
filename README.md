@@ -5,12 +5,6 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 First, run the development server:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
 bun dev
 ```
 
@@ -30,10 +24,13 @@ Routes are prefixed with the locale: `/en` and `/pt`.
 ## Code Conventions
 
 - **No comments in code.** Never write comments inside source files (`.ts`, `.tsx`, `.css`). Make names and structure explain intent. Put explanations here in the documentation instead.
-- Colors, spacing and type tokens are defined in `app/globals.css`. Neutrals are tinted toward the moss accent (hue 150). Use the semantic token utilities (`bg-bg`, `text-muted`, `bg-accent`) rather than raw colors.
+- Colors, spacing and type tokens are defined in `app/globals.css`. Neutrals are tinted navy (hue 265); `grow` (green) marks progress and gain, `info` (violet) marks labels and plan lines, `debt` (coral) marks shortfalls. Use the semantic token utilities (`bg-surface`, `text-muted`, `bg-grow`) rather than raw colors.
+- Themes: light is the default; dark applies through `data-theme="dark"` on `<html>`. A script in `app/[lang]/layout.tsx` sets it before paint from `localStorage` (`theme`) or the system preference, and the toggle in `Shell.tsx` updates both.
+- Sample data lives in `app/[lang]/data.ts` (per context: solo, couple, company). Goal names and other labels come from the `items` section of the dictionaries, keyed by the same ids. Currency and dates are formatted in `app/[lang]/format.ts`; keep `Intl` options explicit so server and browser output match.
+- Every colored gain/loss or debt/credit signal also carries a sign, icon or text, so color is never the only cue.
 - Product and design context: `PRODUCT.md`.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Plus Jakarta Sans](https://fonts.google.com/specimen/Plus+Jakarta+Sans)
 
 ## Learn More
 

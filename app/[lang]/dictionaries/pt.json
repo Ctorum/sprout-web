@@ -1,47 +1,109 @@
 {
   "meta": {
     "title": "Sprout",
-    "description": "Créditos, dívidas, investimentos e metas em um só lugar tranquilo, para você, sua casa ou sua empresa."
+    "description": "Créditos, dívidas, investimentos e metas em um só lugar, para você, sua casa ou sua empresa."
   },
   "shell": {
     "skip": "Ir para o conteúdo",
-    "menu": "Menu",
     "mainNav": "Principal",
     "scopeLabel": "Visualizando",
     "languageLabel": "Idioma",
+    "theme": "Tema escuro",
     "soon": "Em breve"
   },
   "scopes": {
-    "personal": "Pessoal",
-    "household": "Família",
+    "personal": "Solo",
+    "household": "Casal",
     "company": "Empresa"
   },
   "nav": {
-    "overview": "Visão geral",
+    "overview": "Início",
     "accounts": "Contas",
     "debts": "Dívidas",
-    "investments": "Investimentos",
+    "investments": "Investir",
     "goals": "Metas"
   },
-  "overview": {
-    "title": "Visão geral",
-    "emptyTitle": "Ainda não há nada plantado",
-    "emptyBody": "Comece pelo que você já tem. O Sprout monta o seu panorama conforme você adiciona informações.",
-    "stepsLabel": "Por onde começar",
-    "steps": [
-      {
-        "title": "Adicione uma conta",
-        "body": "Conta corrente, cartão ou dinheiro. Isso ancora o seu saldo."
-      },
-      {
-        "title": "Registre o que você deve ou tem a receber",
-        "body": "Empréstimos, parcelas e valores emprestados, com as datas que importam."
-      },
-      {
-        "title": "Defina uma meta",
-        "body": "Uma reserva, uma viagem ou uma compra. O Sprout acompanha a distância, sem pressão."
-      }
-    ],
-    "cta": "Adicionar a primeira conta"
+  "home": {
+    "title": "Início",
+    "netWorth": "Patrimônio"
+  },
+  "goal": {
+    "ahead": "{n} à frente",
+    "behind": "{n} atrás",
+    "onTrack": "No ritmo",
+    "of": "de {target}",
+    "progress": "{saved} de {target}",
+    "deadline": "Até {date}",
+    "needed": "{amount} por mês mantém o prazo",
+    "done": "Nada a acrescentar"
+  },
+  "chart": {
+    "label": "Trajetória da meta",
+    "range": "Período",
+    "r3": "3M",
+    "r6": "6M",
+    "all": "Tudo",
+    "actual": "Guardado",
+    "plan": "Plano",
+    "summary": "{month}: {actual} guardados, {plan} planejados",
+    "planOnly": "{month}: {plan} planejados"
+  },
+  "goals": {
+    "title": "Metas"
+  },
+  "upcoming": {
+    "title": "Próximos dias",
+    "debt": "Pagamento",
+    "credit": "Recebimento",
+    "invest": "Aporte"
+  },
+  "cashflow": {
+    "title": "Este mês",
+    "in": "Entrou",
+    "out": "Saiu",
+    "left": "Sobrou"
+  },
+  "investments": {
+    "title": "Investimentos",
+    "period": "Últimos 12 meses",
+    "up": "Alta",
+    "down": "Queda"
+  },
+  "empty": {
+    "title": "Nenhuma meta ainda",
+    "body": "Uma meta transforma o que sobra em uma distância que você vê diminuir. Adicione uma para ver a trajetória aqui."
+  },
+  "items": {
+    "emergency": "Reserva de emergência",
+    "japan": "Viagem ao Japão",
+    "card": "Quitar o cartão",
+    "apartment": "Entrada do apartamento",
+    "familyTrip": "Viagem em família",
+    "homeReserve": "Reserva para reparos",
+    "workingCapital": "Capital de giro",
+    "equipment": "Quitar o equipamento",
+    "renovation": "Reforma da loja",
+    "cardInstallment": "Parcela do cartão",
+    "salary": "Salário",
+    "treasuryTopUp": "Aporte no Tesouro",
+    "internet": "Internet",
+    "friendRepay": "Devolução de um amigo",
+    "rent": "Aluguel",
+    "combinedSalaries": "Salários do casal",
+    "apartmentFund": "Aporte para o apartamento",
+    "school": "Mensalidade escolar",
+    "utilities": "Contas da casa",
+    "payroll": "Folha de pagamento",
+    "clientInvoice": "Fatura de cliente",
+    "taxes": "Impostos",
+    "supplier": "Fornecedor",
+    "equipmentInstallment": "Parcela do equipamento",
+    "treasurySelic": "Tesouro Selic 2029",
+    "treasuryIpca": "Tesouro IPCA+ 2035",
+    "cdb": "CDB 110% CDI",
+    "globalIndex": "Fundo de índice global",
+    "realEstate": "Fundo imobiliário",
+    "cashReserve": "Fundo de caixa",
+    "receivables": "Fundo de recebíveis"
   }
 }
