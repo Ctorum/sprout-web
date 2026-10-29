@@ -1,26 +1,70 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  color-scheme: light;
+  --bg: oklch(0.972 0.009 265);
+  --rail: oklch(0.95 0.013 265);
+  --surface: oklch(0.995 0.004 265);
+  --raised: oklch(0.955 0.014 265);
+  --line: oklch(0.905 0.017 265);
+  --fg: oklch(0.23 0.045 265);
+  --muted: oklch(0.47 0.035 265);
+  --grow: oklch(0.47 0.14 155);
+  --grow-soft: oklch(0.93 0.05 155);
+  --info: oklch(0.48 0.16 285);
+  --info-soft: oklch(0.93 0.035 285);
+  --debt: oklch(0.5 0.16 28);
+  --debt-soft: oklch(0.94 0.03 28);
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: oklch(0.175 0.035 265);
+  --rail: oklch(0.145 0.032 265);
+  --surface: oklch(0.215 0.038 265);
+  --raised: oklch(0.26 0.04 265);
+  --line: oklch(0.3 0.04 265);
+  --fg: oklch(0.955 0.012 265);
+  --muted: oklch(0.74 0.035 265);
+  --grow: oklch(0.82 0.19 155);
+  --grow-soft: oklch(0.3 0.07 155);
+  --info: oklch(0.8 0.11 285);
+  --info-soft: oklch(0.3 0.06 285);
+  --debt: oklch(0.78 0.13 28);
+  --debt-soft: oklch(0.32 0.06 28);
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --color-bg: var(--bg);
+  --color-rail: var(--rail);
+  --color-surface: var(--surface);
+  --color-raised: var(--raised);
+  --color-line: var(--line);
+  --color-fg: var(--fg);
+  --color-muted: var(--muted);
+  --color-grow: var(--grow);
+  --color-grow-soft: var(--grow-soft);
+  --color-info: var(--info);
+  --color-info-soft: var(--info-soft);
+  --color-debt: var(--debt);
+  --color-debt-soft: var(--debt-soft);
+  --font-sans: var(--font-sans-face);
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--font-sans), system-ui, sans-serif;
+  font-kerning: normal;
+}
+
+:focus-visible {
+  outline: 2px solid var(--info);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition-duration: 0.01ms !important;
+  }
 }

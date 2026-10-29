@@ -1,0 +1,109 @@
+{
+  "meta": {
+    "title": "Sprout",
+    "description": "Credits, debts, investments and goals in one place, for you, your household or your company."
+  },
+  "shell": {
+    "skip": "Skip to content",
+    "mainNav": "Main",
+    "scopeLabel": "Viewing",
+    "languageLabel": "Language",
+    "theme": "Dark theme",
+    "soon": "Soon"
+  },
+  "scopes": {
+    "personal": "Solo",
+    "household": "Couple",
+    "company": "Company"
+  },
+  "nav": {
+    "overview": "Home",
+    "accounts": "Accounts",
+    "debts": "Debts",
+    "investments": "Investing",
+    "goals": "Goals"
+  },
+  "home": {
+    "title": "Home",
+    "netWorth": "Net worth"
+  },
+  "goal": {
+    "ahead": "{n} ahead",
+    "behind": "{n} behind",
+    "onTrack": "On track",
+    "of": "of {target}",
+    "progress": "{saved} of {target}",
+    "deadline": "By {date}",
+    "needed": "{amount} a month keeps you on time",
+    "done": "Nothing left to add"
+  },
+  "chart": {
+    "label": "Goal trajectory",
+    "range": "Range",
+    "r3": "3M",
+    "r6": "6M",
+    "all": "All",
+    "actual": "Saved",
+    "plan": "Plan",
+    "summary": "{month}: {actual} saved, {plan} planned",
+    "planOnly": "{month}: {plan} planned"
+  },
+  "goals": {
+    "title": "Goals"
+  },
+  "upcoming": {
+    "title": "Coming up",
+    "debt": "Payment",
+    "credit": "Receipt",
+    "invest": "Contribution"
+  },
+  "cashflow": {
+    "title": "This month",
+    "in": "In",
+    "out": "Out",
+    "left": "Left over"
+  },
+  "investments": {
+    "title": "Investments",
+    "period": "Last 12 months",
+    "up": "Up",
+    "down": "Down"
+  },
+  "empty": {
+    "title": "No goals yet",
+    "body": "A goal turns spare money into a distance you can watch shrink. Add one to see its trajectory here."
+  },
+  "items": {
+    "emergency": "Emergency fund",
+    "japan": "Trip to Japan",
+    "card": "Pay off the credit card",
+    "apartment": "Apartment down payment",
+    "familyTrip": "Family trip",
+    "homeReserve": "Home repairs reserve",
+    "workingCapital": "Working capital",
+    "equipment": "Equipment loan payoff",
+    "renovation": "Store renovation",
+    "cardInstallment": "Card installment",
+    "salary": "Salary",
+    "treasuryTopUp": "Treasury top-up",
+    "internet": "Internet",
+    "friendRepay": "Repayment from a friend",
+    "rent": "Rent",
+    "combinedSalaries": "Combined salaries",
+    "apartmentFund": "Apartment fund deposit",
+    "school": "School fees",
+    "utilities": "Utilities",
+    "payroll": "Payroll",
+    "clientInvoice": "Client invoice",
+    "taxes": "Taxes",
+    "supplier": "Supplier payment",
+    "equipmentInstallment": "Equipment installment",
+    "treasurySelic": "Treasury Selic 2029",
+    "treasuryIpca": "Treasury IPCA+ 2035",
+    "cdb": "CDB 110% CDI",
+    "globalIndex": "Global index fund",
+    "realEstate": "Real estate fund",
+    "cashReserve": "Cash reserve fund",
+    "receivables": "Receivables fund"
+  }
+}
